@@ -1,0 +1,135 @@
+body{
+    border: 5px rgb(70, 210, 0) solid;
+    font-size: 16px;
+    text-align: center;
+    font-family: Open sans;
+    
+    
+    
+   
+}
+
+.main{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border: 5px yellow solid;
+    color:hsl(243, 87%, 12%)
+    
+    
+    
+}
+
+.nav,.hero{
+    width: 90%;
+    border: 5px rgb(255, 161, 207) solid;
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between; /* Distribute items along the main axis (horizontally) */
+    align-items: center; /* Vertically center items */
+    border: 5px rgb(1, 1, 1) solid;
+    width: 100%;
+}
+
+.logo {
+    /* You can adjust the margin or padding as needed */
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Make the navigation links a flex container */
+    gap: 20px; /* Add spacing between links */
+    justify-content: flex-end; /* Push the links to the left */
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+    font-weight: 400;
+    /* Add any other styling as desired */
+  }
+
+.navbar{
+    border: 5px blue solid;
+}
+
+.input-style {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+  
+.input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.hero{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+.hero-img{
+    width: 100%;
+}
+
+.first_hero_box{
+    width: 50%;
+    border: 5px rgb(1, 1, 1) solid;
+    text-align: left;
+    font-size: 16px;
+    font-family: Raleway;
+    
+}
+
+.second_hero_box{
+    width: 50%;
+    border: 5px rgb(228, 29, 29) solid;
+}
+
+h2{
+    border: 5px green solid;
+    font-weight: 700;
+    font-size: 36px; 
+}
+
+p{
+    
+    color: hsl(238, 22%, 44%);
+    border: 5px yellow solid;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.second_section{
+    width: 100%;
+    border: purple 5px solid;
+    width: 90%;
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
+    height: 600px;
+}
+
+.section-image{
+    width: 100%;
+    height: 500px;
+}
+
+.third-section{
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
