@@ -29,10 +29,6 @@ body{
     width: 100%;
 }
 
-.logo {
-    width: 100px;
-}
-
 .nav-links {
     list-style: none; 
     display: flex;
@@ -327,9 +323,8 @@ h2{
 }
 
 .footer-logo img {
-    width: 40px;
-    height: 40px;
     margin-right: 10px;
+    color: #ffffff;
 }
 
 .footer-contact p {
